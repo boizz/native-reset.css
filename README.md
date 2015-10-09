@@ -4,5 +4,5 @@
 
 ### CDN地址
 ```
-http://cdn.ccwebsite.com/reset-css/1.1.0/reset.min.css
+<link rel="stylesheet" href="http://cdn.ccwebsite.com/reset-css/1.1.0/reset.min.css"/>
 ```
