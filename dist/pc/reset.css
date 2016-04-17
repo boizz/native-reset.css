@@ -1,13 +1,19 @@
-html{font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+/* =================================================================
+* Reset Stylesheet for PC
+* Author:Bon
+* Author URI:http://www.ccwebsite.com/
+* Date:2015-05-29
+* Last Update:2015-10-20
+* Version:1.2.2
+* ================================================================== */
+html{font-family:"Microsoft YaHei UI","Microsoft YaHei",sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 html,body,div,object,iframe,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,dl,dt,dd,ol,ul,li,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,progress{margin:0;padding:0;border:0;vertical-align:baseline}
-input,textarea,select{outline:none;line-height:normal}
-a{text-decoration:none}
 li{list-style:none}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
-a{background-color:transparent}
+a{background-color:transparent;text-decoration:none}
 a:active,a:hover{outline:0}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
@@ -24,7 +30,7 @@ figure{margin:1em 40px}
 hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
 pre{overflow:auto}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
-button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;outline:none;line-height:normal}
 button{overflow:visible}
 button,select{text-transform:none}
 button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
