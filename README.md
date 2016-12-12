@@ -1,6 +1,7 @@
 # reset-css
-这个样式表写给还在为前端开发中各个浏览器样式不统一问题纠结的同学，但不包含Hack。
-大家可以把样式表下载到本地使用，也可以使用CDN调取。
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BoizZ/reset-css/master/LICENSE)
+
+统一浏览器的样式特性。针对PC端、移动端及移动客户端分离代码，更加轻量，减少冗(I)余(E)。基于`SASS`，支持快速拓展，个性化样式。
 
 ## 文件目录
 
