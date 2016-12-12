@@ -18,9 +18,3 @@
 ├── package.json
 └── README.md
 ```
-
-## DEMO
-
-main: https://github.com/BoizZ/reset-css/demo/main.html
-mobile: https://github.com/BoizZ/reset-css/demo/mobile.html
-native: https://github.com/BoizZ/reset-css/demo/native.html
