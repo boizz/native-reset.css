@@ -2,10 +2,11 @@
 这个样式表写给还在为前端开发中各个浏览器样式不统一问题纠结的同学，但不包含Hack。
 大家可以把样式表下载到本地使用，也可以使用CDN调取。
 
-### 文件目录
+## 文件目录
 
 ``` bash
 .
+├── demo # 示例
 ├── dist # 1.2.2 版本
 ├── public # 2.0.0 版本
 │   ├── main # 通用重置样式表：包含IE、MacOS Safari 及 手机重置样式表 的所有特性
@@ -17,3 +18,9 @@
 ├── package.json
 └── README.md
 ```
+
+## DEMO
+
+main: https://github.com/BoizZ/reset-css/demo/main.html
+mobile: https://github.com/BoizZ/reset-css/demo/mobile.html
+native: https://github.com/BoizZ/reset-css/demo/native.html
