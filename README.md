@@ -1,21 +1,44 @@
 # native-reset.css
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/BoizZ/reset-css)
-[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/BoizZ/reset-css/pulls)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BoizZ/reset-css/master/LICENSE)
+[![Npm downloads](https://img.shields.io/npm/dt/native-reset.css.svg)](https://www.npmjs.com/package/native-reset.css)
+[![PR welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/BoizZ/reset-css/pulls)
 
-统一浏览器的样式特性。针对PC端、移动端及移动客户端分离代码，更加轻量，减少冗(I)余(E)。基于`SASS`，支持快速拓展，个性化样式。
+Uniform browser style features. Separation of responsive website, mobile and native applications, more lightweight, reducing redundancy. Based on `SASS`, support for personalized style.
 
-## 文件目录
+## Install
+
+``` bash
+npm install --save native-reset.css
+```
+
+## Quick start
+
+ - Used in native app
+
+``` js
+import 'native-reset.css/public/native/reset.css'
+```
+
+ - Used in mobile
+
+``` js
+import 'native-reset.css/public/mobile/reset.css'
+```
+ - Used in responsive website
+
+``` js
+import 'native-reset.css/public/main/reset.css'
+```
+
+## File drectory
 
 ``` bash
 .
-├── demo # 示例
-├── dist # 1.2.2 版本
-├── public # 2.0.0 版本
-│   ├── main # 通用重置样式表：包含IE、MacOS Safari 及 手机重置样式表 的所有特性
-│   ├── mobile # 手机重置样式表： 使用无衬线字体、去除IOS默认表单样式、去除a及表单点击时的蓝边及灰色背景
-│   └── native # 原生应用重置样式表： 禁止长按链接与图片弹出菜单、禁止选中文字，及 手机重置样式表 的所有特性
-├── sass # 2.0.0 的 sass 目录
+├── demo # demo pages
+├── dist # v 1.2.2
+├── public # v 2.0.1
+├── sass # source files
 ├── .gitignore
 ├── gruntfile.js
 ├── package.json

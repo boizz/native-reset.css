@@ -1,6 +1,6 @@
 {
   "name": "native-reset.css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A configurable reset style sheet",
   "scripts": {
     "test": "grunt"
