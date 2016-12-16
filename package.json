@@ -1,5 +1,5 @@
 {
-  "name": "reset-css",
+  "name": "@boizz/reset-css",
   "version": "2.0.0",
   "description": "A configurable reset style sheet",
   "scripts": {
