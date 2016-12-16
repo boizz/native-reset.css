@@ -1,4 +1,4 @@
-# reset-css
+# native-reset.css
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/BoizZ/reset-css)
 [![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/BoizZ/reset-css/pulls)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BoizZ/reset-css/master/LICENSE)
